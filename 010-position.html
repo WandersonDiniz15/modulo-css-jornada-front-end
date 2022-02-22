@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Position- Static, Relative</title>
+  <style>
+    .conteiner {
+      background: blueviolet;
+      color: #fff;
+
+
+
+      position: relative;
+      top: 20px;
+      left: 20px;
+      bottom: 20px;
+      right: 50px;
+
+      margin: 40px 0;
+
+    }
+
+    .filho-relative {
+      background: red;
+      color: #fff;
+
+      position: relative;
+      top: 20px;
+      left: 20px;
+      bottom: 20px;
+      right: 50px;
+
+      width: 120px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="conteiner">
+    Texto 1
+
+    <div class="filho-relative">
+      Texto 2
+
+    </div>
+    Texto 3
+  </div>
+
+
+  <div class="conteiner">
+    Texto 1
+
+    <div class="filho-absolute">
+      Texto 2
+
+    </div>
+  </div>
+
+</body>
+
+</html>
